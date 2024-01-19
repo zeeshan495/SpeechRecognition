@@ -1,0 +1,42 @@
+ body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+     flex-grow: 1;
+}
+
+button {
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 60%; /* Make the button circular */ 
+    background-color: #3487db; /* Add a background color */
+    color: #fff; /* Set text color to white */
+    border: none; /* Remove the default button border */
+}
+
+button:hover {
+    background-color: #5255e5; /* Change background color on hover */
+}
+
+.tagline {
+    margin-bottom: 20px; /* Add some space between the button and the tagline */
+}
+#searchContainer {
+    margin-bottom: 20px;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.highlight {
+    background-color: #3487db;
+}
